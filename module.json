@@ -1,0 +1,25 @@
+{
+    "id": "subclass-feature-fix",
+    "title": "Subclass Automator",
+    "description": "A module made to automate some of those subclass features that Foundry VTT or MIDI do not support.",
+    "authors": [
+      {
+      "name": "Warcloud"
+      }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+      "minimum": "11",
+      "verified": "12.331"
+    },
+    "scripts": [
+    ],
+    "esmodules":[
+      "scripts/hooks.js"
+    ],
+    "relationships": {
+      "requires": [
+        { "id": "midi-qol", "type": "module" }
+      ]
+    }
+  }
